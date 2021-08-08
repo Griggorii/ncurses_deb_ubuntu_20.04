@@ -1,0 +1,134 @@
+Format: 1.8
+Date: Sun, 08 Aug 2021 13:10:28 +0800
+Source: ncurses
+Binary: lib32ncurses-dev lib32ncurses6 lib32ncursesw6 lib32tinfo6 libncurses-dev libncurses5 libncurses5-dev libncurses6 libncursesw5 libncursesw5-dev libncursesw6 libtinfo-dev libtinfo5 libtinfo6 libtinfo6-udeb ncurses-base ncurses-bin ncurses-doc ncurses-examples ncurses-term
+Architecture: amd64 all
+Version: 6.2-0ubuntu2
+Distribution: focal
+Urgency: medium
+Maintainer: Craig Small <csmall@debian.org>
+Changed-By: Griggorii <griggorii@gmail.com>
+Description:
+ lib32ncurses-dev - developer's libraries for ncurses (32-bit)
+ lib32ncurses6 - shared libraries for terminal handling (32-bit)
+ lib32ncursesw6 - shared libraries for terminal handling (wide character support) (
+ lib32tinfo6 - shared low-level terminfo library for terminal handling (32-bit)
+ libncurses-dev - developer's libraries for ncurses
+ libncurses5 - shared libraries for terminal handling (legacy version)
+ libncurses5-dev - transitional package for libncurses-dev
+ libncurses6 - shared libraries for terminal handling
+ libncursesw5 - shared libraries for terminal handling (wide character legacy ver
+ libncursesw5-dev - transitional package for libncurses-dev
+ libncursesw6 - shared libraries for terminal handling (wide character support)
+ libtinfo-dev - transitional package for libncurses-dev
+ libtinfo5  - shared low-level terminfo library (legacy version)
+ libtinfo6  - shared low-level terminfo library for terminal handling
+ libtinfo6-udeb - shared low-level terminfo library for terminal handling - udeb (udeb)
+ ncurses-base - basic terminal type definitions
+ ncurses-bin - terminal-related programs and man pages
+ ncurses-doc - developer's guide and documentation for ncurses
+ ncurses-examples - test programs and examples for ncurses
+ ncurses-term - additional terminal type definitions
+Changes:
+ ncurses (6.2-0ubuntu2) focal; urgency=medium
+ .
+   * Test rebuild
+Checksums-Sha1:
+ bfe19b63000289c96c486a097484cf7ecf07404e 305568 lib32ncurses-dev_6.2-0ubuntu2_amd64.deb
+ 678c4b4ba9be531d8934952253f22216e0ab7586 253736 lib32ncurses6-dbgsym_6.2-0ubuntu2_amd64.ddeb
+ 58fd0978bb6465ca78ea3ff1091075fec4a76c7c 107584 lib32ncurses6_6.2-0ubuntu2_amd64.deb
+ 4146feb049b0a2695f3f7bcfb28a966922903bcb 320452 lib32ncursesw6-dbgsym_6.2-0ubuntu2_amd64.ddeb
+ 7d018a5d4428e1ced5a2410a4d3a06ca5daa9868 141872 lib32ncursesw6_6.2-0ubuntu2_amd64.deb
+ f22bc07b240c816170b46b92829721a615513be0 163384 lib32tinfo6-dbgsym_6.2-0ubuntu2_amd64.ddeb
+ dbf335580a8dd0fcf3510ece30759074049b22b6 334288 lib32tinfo6_6.2-0ubuntu2_amd64.deb
+ bbaea0e9197e837c9aff38c0d65cf1f73e788ccc 339516 libncurses-dev_6.2-0ubuntu2_amd64.deb
+ 22fd2890f6d5286ec213f6063fcfccaee6cc1296 265028 libncurses5-dbgsym_6.2-0ubuntu2_amd64.ddeb
+ c154bf052aa8b59c72cd9f9fb8d199c4f867906e 936 libncurses5-dev_6.2-0ubuntu2_amd64.deb
+ 334a6ce0da7560505e1f0cfa577f1295b48552f4 96832 libncurses5_6.2-0ubuntu2_amd64.deb
+ 7181423b20e8c0a22759b22141e1bf1fcbcd449e 291212 libncurses6-dbgsym_6.2-0ubuntu2_amd64.ddeb
+ c20a50d657bbad9b2cc13a703b08d6c95e7171b9 101228 libncurses6_6.2-0ubuntu2_amd64.deb
+ 58579fa8a507f0869734650c3b729d992c79cd45 326100 libncursesw5-dbgsym_6.2-0ubuntu2_amd64.ddeb
+ 965d4484982010e36e83fa46fadc96c95ed00097 940 libncursesw5-dev_6.2-0ubuntu2_amd64.deb
+ 0dc343e53b2e9abbdb1c5ecb255b5f79d1de7123 119124 libncursesw5_6.2-0ubuntu2_amd64.deb
+ 50c4e6b947f32f2591f61c7eee4a8aa9f8b62aa6 366852 libncursesw6-dbgsym_6.2-0ubuntu2_amd64.ddeb
+ 05fd75b3453c93e7727deaceb4165c7e552f47be 132360 libncursesw6_6.2-0ubuntu2_amd64.deb
+ 95ccbd48c5f075c3c7b4a341afa8ab9c1b445f77 932 libtinfo-dev_6.2-0ubuntu2_amd64.deb
+ 157dc1892190c1bd7261cca0629ff29e8b231138 170952 libtinfo5-dbgsym_6.2-0ubuntu2_amd64.ddeb
+ 204d0d97168ff990f70ed66d4f2666522d39d711 330492 libtinfo5_6.2-0ubuntu2_amd64.deb
+ ca9e532b0a8b414890019f4de255261d45744d4a 181444 libtinfo6-dbgsym_6.2-0ubuntu2_amd64.ddeb
+ 1025b63622eae99f2c4cd4bccbfaea9b6bb42595 53128 libtinfo6-udeb_6.2-0ubuntu2_amd64.udeb
+ 265a4dfd192857d25f04457cdb6785b95d5ca44d 334860 libtinfo6_6.2-0ubuntu2_amd64.deb
+ 7c270354850e6e7fe9bc131955b68aa185c63eb7 266200 ncurses-base_6.2-0ubuntu2_all.deb
+ 2dc2aef9ee5bd60340d4809473aeddd06829be49 180364 ncurses-bin-dbgsym_6.2-0ubuntu2_amd64.ddeb
+ 2f14375a7171c57ee2e75256baaee66c5677ff80 422424 ncurses-bin_6.2-0ubuntu2_amd64.deb
+ 87c93b928e5604934e0d782687c14da9432bb1fd 918888 ncurses-doc_6.2-0ubuntu2_all.deb
+ 3a435ea045da2f1272837163392f718959ee7771 613096 ncurses-examples-dbgsym_6.2-0ubuntu2_amd64.ddeb
+ f51ef85d9bda1f878d5ff123ea0a329a1d2cc253 522280 ncurses-examples_6.2-0ubuntu2_amd64.deb
+ 8210ccbe8b3adcd9337db0a40c28c3e720bf9100 499332 ncurses-term_6.2-0ubuntu2_all.deb
+ 0d920c417cc0691cc74b77ce34648810ad5b2228 15400 ncurses_6.2-0ubuntu2_amd64.buildinfo
+Checksums-Sha256:
+ b9373a66ca35af11bbff867cf0560a08d88da64c6abbda2c977fbdd7a8dc5c02 305568 lib32ncurses-dev_6.2-0ubuntu2_amd64.deb
+ 0301321bed1cbbec9ea08f640ac158b65b1f31b72e7148557ccb16dc01ef334e 253736 lib32ncurses6-dbgsym_6.2-0ubuntu2_amd64.ddeb
+ fca3d948577a1e219618fb6b503540579dd8062dd17e928db2a69b5e7b4f36eb 107584 lib32ncurses6_6.2-0ubuntu2_amd64.deb
+ f2b6b4c8e1075602c438d12a212a509a3804e05796322efbfc988c5391fbbf5b 320452 lib32ncursesw6-dbgsym_6.2-0ubuntu2_amd64.ddeb
+ adb95c2e5dff5c3726d3a9d87d535fd0f103c926dd71e2ccabe939e3de5ba20e 141872 lib32ncursesw6_6.2-0ubuntu2_amd64.deb
+ 8c869744d1a11aa6b761bd824cd7693c3b9983cb2731833d1d860f016f72c20e 163384 lib32tinfo6-dbgsym_6.2-0ubuntu2_amd64.ddeb
+ 93e9d7bbfe298f1b834c7c4f38e6fff616dadf3e8e85cbfaa019388c758bbda7 334288 lib32tinfo6_6.2-0ubuntu2_amd64.deb
+ ab6886aa899fee00a2f4fe9f5fd8e91291f4254a13b6df4b06e9941d0470f93a 339516 libncurses-dev_6.2-0ubuntu2_amd64.deb
+ af7497ce81d5bbc468b1b500b3a1d3449d0b8121c695628f99b5770065e62482 265028 libncurses5-dbgsym_6.2-0ubuntu2_amd64.ddeb
+ 633f19807e90731eb997a38c76ecb119caa073b2eee86488c6f2546592a5f444 936 libncurses5-dev_6.2-0ubuntu2_amd64.deb
+ 90cbf78d895835099aedcc1d38c32d8ae8700ee904e282d17323a3624c872b9d 96832 libncurses5_6.2-0ubuntu2_amd64.deb
+ 55f832a4f4afc354b0b5257ead4cb93cdef9c9a982b175344e1f35ba53bef151 291212 libncurses6-dbgsym_6.2-0ubuntu2_amd64.ddeb
+ 14b4b76fa955429af2935c28048a1bba50f8dad10cf9829335e1d61f9323e711 101228 libncurses6_6.2-0ubuntu2_amd64.deb
+ 37dd18494375e33ee1139790b493bd4b01a24c5491e5b068094f5400932f3fc8 326100 libncursesw5-dbgsym_6.2-0ubuntu2_amd64.ddeb
+ 437f21fbd60cf968289b15bb307a76c311e9e0d0c80366315f2b9a9489b3972b 940 libncursesw5-dev_6.2-0ubuntu2_amd64.deb
+ e835aefd1e7195805a6009307504041b8f8669b06b7c57953d5b421ae1abffec 119124 libncursesw5_6.2-0ubuntu2_amd64.deb
+ 550d13d99398d02ebe4af5dba9fa0c3775262f94dd9bff2a6f7f98bafb2b5c94 366852 libncursesw6-dbgsym_6.2-0ubuntu2_amd64.ddeb
+ 76f062515393c6c5fdd82824260b5fad850891ad3f265948dfe8147c920cfefe 132360 libncursesw6_6.2-0ubuntu2_amd64.deb
+ 238e49811426445b2d2284a772d5677864b59b8155adfc518bf311743162a244 932 libtinfo-dev_6.2-0ubuntu2_amd64.deb
+ 13ea44443612a27a76bf40d2363f5f5156459ef08edd19f1d5dd6fbcc76f2a5d 170952 libtinfo5-dbgsym_6.2-0ubuntu2_amd64.ddeb
+ 4b5f62fb40959548a0cbafd6ca3619f85691c20bc67aa61887c7f7ef9b302390 330492 libtinfo5_6.2-0ubuntu2_amd64.deb
+ 4cc6453051a18665c0c87c3fbf318eee5d1a6651955f8e5d7e89f1dfcdd6b9f8 181444 libtinfo6-dbgsym_6.2-0ubuntu2_amd64.ddeb
+ aadec8435bdc5f55b73b5a00510c68ff262f206b0f42bc5aa44711e16e4a9ebd 53128 libtinfo6-udeb_6.2-0ubuntu2_amd64.udeb
+ 890a780f09d62d2a7bf18ac5abbc9ebc32760ca2dd727f545b5d4758d8eac4dc 334860 libtinfo6_6.2-0ubuntu2_amd64.deb
+ 8e015feeb1359efd7ad1a154bf5ad7a9ad18c8eb122e03af134a8b86545892c5 266200 ncurses-base_6.2-0ubuntu2_all.deb
+ 754a514f05a1d3da202ff0f8a7901e28d02db282cd10b01347fbac5a4837d08c 180364 ncurses-bin-dbgsym_6.2-0ubuntu2_amd64.ddeb
+ 74835db838297ae4d061571a1b5210364115ae9f800b540a01eabfa9a97a4f3d 422424 ncurses-bin_6.2-0ubuntu2_amd64.deb
+ bbdfd7322e4109351e5f6008e1079f220b9d4810c1453c1e9f7db8f13cd33b97 918888 ncurses-doc_6.2-0ubuntu2_all.deb
+ e30919a7e9543baccb8ba2c2d1397668b6185db8c125b7d13e1aa4c91cdafd60 613096 ncurses-examples-dbgsym_6.2-0ubuntu2_amd64.ddeb
+ fb2091420925c6383e07ceb281657cd6e1553345216370732221d9e36887d101 522280 ncurses-examples_6.2-0ubuntu2_amd64.deb
+ 79f0834587f483f7378ea264bdc76367d95f705a8bc4c84143f9fb047e035f02 499332 ncurses-term_6.2-0ubuntu2_all.deb
+ 6dc3469830e0e073c676aba0d21ec2116a768d905efbcc76b2547ac5d47259c9 15400 ncurses_6.2-0ubuntu2_amd64.buildinfo
+Files:
+ 5738f5a70325950c2b1dbc89a76b377a 305568 libdevel optional lib32ncurses-dev_6.2-0ubuntu2_amd64.deb
+ 5464d183ea792ecf52c11ce53fc7ccfa 253736 debug optional lib32ncurses6-dbgsym_6.2-0ubuntu2_amd64.ddeb
+ b2588264c5d4bdfbc4199f33405a12f6 107584 libs optional lib32ncurses6_6.2-0ubuntu2_amd64.deb
+ e896c39c31adb853902ce496edc88073 320452 debug optional lib32ncursesw6-dbgsym_6.2-0ubuntu2_amd64.ddeb
+ a12c4403885bf4ea59d9c3d95d0495ed 141872 libs optional lib32ncursesw6_6.2-0ubuntu2_amd64.deb
+ 4e5136b4d1ad62c4c5c28ee2fa969369 163384 debug optional lib32tinfo6-dbgsym_6.2-0ubuntu2_amd64.ddeb
+ 9fdc0c261b82127c9ebb9410ec8033a1 334288 libs optional lib32tinfo6_6.2-0ubuntu2_amd64.deb
+ d67611cce78cb293501980badcb2b0f5 339516 libdevel optional libncurses-dev_6.2-0ubuntu2_amd64.deb
+ 4a69f4aa5c5c7351fd3cc7986587d43a 265028 debug optional libncurses5-dbgsym_6.2-0ubuntu2_amd64.ddeb
+ 8823a93a8d9c47ed2b2729cba9ba868e 936 oldlibs optional libncurses5-dev_6.2-0ubuntu2_amd64.deb
+ 28c0c9b42f7eba71c8377c9568c37965 96832 oldlibs optional libncurses5_6.2-0ubuntu2_amd64.deb
+ fd69cdf0dbbc69c744bb7c753d1bcfd2 291212 debug optional libncurses6-dbgsym_6.2-0ubuntu2_amd64.ddeb
+ 75327ce46de849a9fb83274c0663de41 101228 libs optional libncurses6_6.2-0ubuntu2_amd64.deb
+ a2695ef2d1738c63549414764e636208 326100 debug optional libncursesw5-dbgsym_6.2-0ubuntu2_amd64.ddeb
+ 4ac5de620a309c297e4ef64308dc6138 940 oldlibs optional libncursesw5-dev_6.2-0ubuntu2_amd64.deb
+ 8cb6e3b55d447e0eb29dfdf89a8d01b6 119124 oldlibs optional libncursesw5_6.2-0ubuntu2_amd64.deb
+ df5d82ab9006a18c5cf67aca5208d163 366852 debug optional libncursesw6-dbgsym_6.2-0ubuntu2_amd64.ddeb
+ cc12faa20cade8f529ff7569f265fdf2 132360 libs optional libncursesw6_6.2-0ubuntu2_amd64.deb
+ d01d29071e2fa4412148e7bc9c8b1d27 932 oldlibs optional libtinfo-dev_6.2-0ubuntu2_amd64.deb
+ 4ac11d2f7e14f0f7af5ec5ba2aed94d9 170952 debug optional libtinfo5-dbgsym_6.2-0ubuntu2_amd64.ddeb
+ 013b2d914fc4be36c68d946447119a08 330492 oldlibs optional libtinfo5_6.2-0ubuntu2_amd64.deb
+ 5ddbae4fba39f035e5bc14f3dadd9322 181444 debug optional libtinfo6-dbgsym_6.2-0ubuntu2_amd64.ddeb
+ 7c865ca2be72370fff683209e09d0289 53128 debian-installer optional libtinfo6-udeb_6.2-0ubuntu2_amd64.udeb
+ f78b1c2be046e698bf5cbc66e2cf36bf 334860 libs optional libtinfo6_6.2-0ubuntu2_amd64.deb
+ ce5c994dbac874216588589535d7aa74 266200 misc required ncurses-base_6.2-0ubuntu2_all.deb
+ 734a9177dc9b5f1a65e5196cb074eb08 180364 debug optional ncurses-bin-dbgsym_6.2-0ubuntu2_amd64.ddeb
+ 89a1383462d3a6fac3168c647ce9acda 422424 utils required ncurses-bin_6.2-0ubuntu2_amd64.deb
+ ed335f1d177c78e810f0652245d73263 918888 doc optional ncurses-doc_6.2-0ubuntu2_all.deb
+ addea513e5c03b083dd73c6408962a9d 613096 debug optional ncurses-examples-dbgsym_6.2-0ubuntu2_amd64.ddeb
+ 1e87acda8300d4814d6c198b1da831b7 522280 misc optional ncurses-examples_6.2-0ubuntu2_amd64.deb
+ b6ee2deeca4fae81ffcfd42777ceae0e 499332 misc standard ncurses-term_6.2-0ubuntu2_all.deb
+ 258c93ad7d4ad45a3a65aad788c74ddd 15400 libs required ncurses_6.2-0ubuntu2_amd64.buildinfo
